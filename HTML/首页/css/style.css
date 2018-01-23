@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+body{}
+.container{width:1400px;}
+.p10{padding:10px;}
+.p20{padding:24px;padding-bottom:0;}
+.pl18{padding-left:18px;}
+.plr0{padding-left:0;padding-right:0;}
+
+.top{height:126px;background:url(../images/top.jpg) no-repeat center top;position: relative;}
+.top .i-link{width:86px;height:91px;position: absolute;top: 18px;left:494px;background:none; border:0;}
+.top .info{width:310px;height:25px;line-height:25px;color:#fff;position: absolute;top: 79px;right:130px;}
+.top .exit-link{width:40px;height:18px;position: absolute;top: 82px;right:82px;background:none; border:0;}
+.top .help-link{width:40px;height:18px;position: absolute;top: 82px;right:28px;background:none; border:0;}
+.body-bg{background:#0255a1;}
+.blok-bg{background:#fff;}
+
+.nav-box{border:1px solid #bfcfd3;-webkit-box-shadow:0px 0px 1px #ccc;box-shadow:0px 0px 1px #ccc;}
+.nav-box a{display:inline-table;width:190px;height:270px;font-size:16px;font-weight:700;background:#f1fcff;text-align:center;padding-top:58px;border-left:1px dashed #bfcfd3;}
+.nav-box a:hover{background:#e4f9ff; text-decoration:none;}
+.panel-heading a{font-size:12px;color:#6c6c6c;margin-top:4px;}
+.panel-body a{color:#333;}
+.panel-body font{color:#666;}
+.panel-body span{color:#333;margin-left:15px;}
+.panel-body span.no{color:#1267ac;}
+.panel-default a:hover{color:#1267ac;text-decoration:none;}
+.tip{color:#fff;margin-top:20px;}
+.copyright{font-size:12px; color:#3b79ea;margin-top:10px;}

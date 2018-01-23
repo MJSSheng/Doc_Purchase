@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>供应商信息登记/详细（垄断）-卓思采购管理平台</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="top-bg">
+  <div class="top">
+    <a class="btn btn-default i-link" href="#" role="button"></a>
+    <div class="info">admin，欢迎进入卓思采购管理平台</div>
+    <a class="btn btn-default exit-link" href="#" role="button"></a>
+    <a class="btn btn-default help-link" href="#" role="button"></a>
+  </div>
+</div>
+<div class="container-fluid mt20">
+  <div class="body inline-block-father">
+    <div class="menu inline-block">
+        <div class="panel panel-default">
+          <div class="panel-heading"><h4>供应商管理</h4></div>
+          <div class="panel-body">
+            <a href="#" class="active">供应商信息登记/详细（垄断）</a>
+            <hr />
+            <a href="#">供应商库</a>
+            <hr />
+            <a href="#">供应商银行信息</a>
+          </div>
+        </div>
+    </div>
+    <div class="count inline-block">
+      <form>
+        <div>
+          <table>
+          	<tr>
+              <td>登记日期</td><td width="170"><input type="text" id="t1" class="form-control" placeholder="登记日期"></td>
+              <td>供应商编号</td><td><input type="text" id="t2" class="form-control" placeholder="供应商编号"></td>
+              <td></td><td></td>
+              <td rowspan="3" width="180"><button type="button" class="btn btn-primary">保 存</button>
+              <button type="submit" class="btn btn-default">提交审核</button>
+              </td>
+            </tr>
+            <tr>
+              <td>供应商类别 <font color="red">*</font></td>
+              <td><select class="form-control">
+                    <option value="业务">业务</option>
+                    <option value="内部采购">内部采购</option>
+                    <option value="其他1">其他1</option>
+                    <option value="其他2">其他2</option>
+                  </select></td>
+              <td>服务行业 <font color="red">*</font></td><td><input type="text" id="t5" class="form-control" placeholder="服务行业"></td>
+              <td>合作状态 <font color="red">*</font></td>
+              <td><select id="u16_input" class="form-control">
+                    <option value="分散采购">分散采购</option>
+                    <option value="集中采购">集中采购</option>
+                    <option value="其他采购">其他采购</option>
+                  </select></td>
+            </tr>
+            <tr>
+              <td>采购方式 <font color="red">*</font></td><td><select id="u19_input" class="form-control">
+                <option value="分次采购">分次采购</option>
+                <option value="年度采购">年度采购</option>
+                <option value="其他采购">其他采购</option>
+              </select></td>
+              <td>合作方式 <font color="red">*</font></td><td><select id="u19_input" class="form-control">
+                <option value="分次采购">分次采购</option>
+                <option value="年度采购">年度采购</option>
+                <option value="其他采购">其他采购</option>
+              </select></td>
+              <td>推荐部门 <font color="red">*</font></td><td><input type="text" id="t9" class="form-control" placeholder="推荐部门"></td>
+              
+              
+            </tr>
+          </table>
+        </div>
+        <div class="panel panel-default mt20">
+          <div class="panel-heading"><strong>供应商基本信息</strong></div>
+          <div class="panel-body">
+            <table>
+          	<tr>
+              <td>供应商名称 <font color="red">*</font></td><td><input type="text" id="u27_input" class="form-control" placeholder="供应商名称"></td>
+              <td>供应商简称 <font color="red">*</font></td><td><input type="text" id="u30_input" class="form-control" placeholder="供应商简称"></td>
+              <td>省份 <font color="red">*</font></td><td width="140"><input type="text" id="" class="form-control" placeholder="省份"></td>
+              <td>城市 <font color="red">*</font></td><td width="160"><input type="text" id="" class="form-control" placeholder="城市"></td>
+            </tr>
+            <tr>
+              <td>地址 <font color="red">*</font></td><td colspan="3"><input type="text" id="" class="form-control" placeholder="地址"></td>
+              
+              <td>邮编 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="邮编"></td>
+              <td></td><td></td>
+            </tr>
+            <tr>
+              <td>公司电话 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="公司电话"></td>
+              <td>传真 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="传真"></td>
+              <td>分公司所在城市 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="分公司所在城市"></td>
+              <td>提供服务 <font color="red">*</font></td><td><select id="u54_input" class="form-control">
+                <option value="布展">布展</option>
+                <option value="执行">执行</option>
+                <option value="车辆租赁">车辆租赁</option>
+              </select></td>
+            </tr>
+          </table>
+          </div>
+        </div>
+        <div class="panel panel-default mt20">
+          <div class="panel-heading"><strong>联系人信息 - 法人</strong></div>
+          <div class="panel-body">
+            <table>
+          	<tr>
+              <td>姓名 <font color="red">*</font></td><td width="90"><input type="text" id="" class="form-control" placeholder="姓名"></td>
+              <td>职务 <font color="red">*</font></td><td width="110"><input type="text" id="" class="form-control" placeholder="职务"></td>
+              <td>手机 <font color="red">*</font></td><td width="120"><input type="text" id="" class="form-control" placeholder="手机"></td>
+              <td>固定电话 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="固定电话"></td>
+              <td>邮箱 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="邮箱"></td>
+            </tr>
+            
+          </table>
+          </div>
+        </div>
+        <div class="panel panel-default mt20">
+          <div class="panel-heading"><strong>联系人信息 - 主要业务联系人</strong></div>
+          <div class="panel-body">
+            <table>
+          	<tr>
+              <td>姓名 <font color="red">*</font></td><td width="90"><input type="text" id="" class="form-control" placeholder="姓名"></td>
+              <td>职务 <font color="red">*</font></td><td width="110"><input type="text" id="" class="form-control" placeholder="职务"></td>
+              <td>手机 <font color="red">*</font></td><td width="120"><input type="text" id="" class="form-control" placeholder="手机"></td>
+              <td>固定电话 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="固定电话"></td>
+              <td>邮箱 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="邮箱"></td>
+            </tr>
+            
+          </table>
+          </div>
+        </div>
+        <div class="panel panel-default mt20">
+          <div class="panel-heading"><strong>联系人信息 - 次要业务联系人</strong></div>
+          <div class="panel-body">
+            <table>
+          	<tr>
+              <td>姓名 <font color="red">*</font></td><td width="90"><input type="text" id="" class="form-control" placeholder="姓名"></td>
+              <td>职务 <font color="red">*</font></td><td width="110"><input type="text" id="" class="form-control" placeholder="职务"></td>
+              <td>手机 <font color="red">*</font></td><td width="120"><input type="text" id="" class="form-control" placeholder="手机"></td>
+              <td>固定电话 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="固定电话"></td>
+              <td>邮箱 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="邮箱"></td>
+            </tr>
+            
+          </table>
+          </div>
+        </div>
+        <div class="panel panel-default mt20">
+          <div class="panel-heading"><strong>工商信息</strong></div>
+          <div class="panel-body">
+            <table>
+          	<tr>
+              <td>证件类型 <font color="red">*</font></td><td><select id="u193_input" class="form-control">
+                <option value="营业执照注册号">营业执照注册号</option>
+                <option value="统一社会信用代码">统一社会信用代码</option>
+              </select></td>
+              <td colspan="3"><input type="text" id="" class="form-control" placeholder=""></td>
+              <td>注册资本 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="注册资本"></td><td width="20">万</td>
+            </tr>
+            <tr>
+              <td>营业期限 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder=""></td><td width="10">-</td><td><input type="text" id="" class="form-control" placeholder=""></td><td width="200"></td>
+           
+              <td>增值税税率 <font color="red">*</font></td><td width="140"><input type="text" id="" class="form-control" placeholder="增值税税率"></td><td width="20">%</td>
+            </tr>
+          </table>
+          </div>
+        </div>
+        <div class="panel panel-default mt20">
+          <div class="panel-heading"><strong>联系人信息 - 次要业务联系人</strong></div>
+          <div class="panel-body">
+            <table>
+          	<tr>
+              <td width="70">开户户名 <font color="red">*</font></td><td width="240"><input type="text" id="" class="form-control" placeholder="开户户名"></td>
+              <td width="80">开户行全称 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="开户行全称"></td>
+            </tr>
+            <tr>
+              <td>银行账号 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="银行账号"></td>
+              <td>开户行地址 <font color="red">*</font></td><td><input type="text" id="" class="form-control" placeholder="开户行地址"></td>
+            </tr>
+          </table>
+          </div>
+        </div>
+        <div class="panel panel-default mt20">
+          <div class="panel-heading"><strong>资质上传</strong></div>
+          <div class="panel-body">
+            <table>
+          	<tr>
+              <td width="120">营业执照 <font color="red">*</font></td><td width="90"><input type="file"></td>
+              <td width="120">税务登记证 <font color="red">*</font></td><td width="110"><input type="file"></td>
+              </tr>
+              <tr>
+              <td>组织机构代码证 <font color="red">*</font></td><td width="120"><input type="file"></td>
+              <td>一般纳税人批件 <font color="red">*</font></td><td><input type="file"></td>
+            </tr>
+            
+          </table>
+          <textarea class="form-control" rows="3" placeholder="备注"></textarea>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+</div>
+<div class="container-fluid bottom">
+  <div class="tip text-center">
+  	本系统需要运行IE7.0以上 建议使用ie11、chrome、火狐等浏览器
+  </div>
+  <div class="copyright text-center">
+  	COPY RIGHT @ 2014-2017 **** ALL RIGHT RESERVED
+  </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.2.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
